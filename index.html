@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang giới thiệu Bài 1 HTML</title>
+</head>
+<body>
+
+  <header>
+    <h1>Chào mừng đến với Trang Học Tập HTML</h1>
+    <nav>
+      <a href="#gioi-thieu">Giới thiệu</a> | 
+      <a href="#loi-ich">Lợi ích</a> | 
+      <a href="#dang-ky">Đăng ký học</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="gioi-thieu">
+      <h2>1. Ngôn ngữ định dạng siêu văn bản HTML</h2>
+      <p>HTML là nền tảng cốt lõi của mọi trang web trên thế giới, giúp định hình cấu trúc nội dung hiển thị.</p>
+      <img src="https://codestar.vn/wp-content/uploads/2021/05/Mockplus-840x430.png" alt="Hình ảnh minh họa học lập trình web">
+    </section>
+
+    <section id="loi-ich">
+      <h2>2. Nội dung cốt lõi đã học trong Bài 1</h2>
+      <ul>
+        <li>Cách khởi tạo cấu trúc khung xương tệp HTML chuẩn.</li>
+        <li>Cách sử dụng các thẻ văn bản, danh sách và bảng dữ liệu.</li>
+        <li>Cách xây dựng biểu mẫu form để thu thập dữ liệu người dùng.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Lịch trình học tập dự kiến</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Tuần học</th>
+            <th>Nội dung trọng tâm</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tuần 1</td>
+            <td>Cú pháp HTML cơ bản và các thẻ bố cục ngữ nghĩa</td>
+          </tr>
+          <tr>
+            <td>Tuần 2</td>
+            <td>Liên kết tài nguyên bên ngoài CSS và JavaScript</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <section id="dang-ky">
+    <h2>4. Biểu mẫu đăng ký tư vấn khóa học</h2>
+    <form action="#" method="POST">
+      <div>
+        <label for="username">Họ và tên:</label>
+        <input type="text" id="username" name="ho_ten" required>
+      </div>
+      <br>
+      <div>
+        <label for="useremail">Địa chỉ Email:</label>
+        <input type="email" id="useremail" name="email_lien_he" required>
+      </div>
+      <br>
+      <button type="submit">Gửi thông tin</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Học viện Công nghệ thông tin. Thiết kế bởi Học Viên.</p>
+  </footer>
+
+</body>
+</html>
