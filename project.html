@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini-project: Vẽ UI và tạo trang HTML</title>
+</head>
+<body>
+
+  <header>
+    <h1>Hệ Thống Học Tập HTML Cơ Bản</h1>
+  </header>
+
+  <nav>
+    <a href="#tong-quan">Tổng quan</a> | 
+    <a href="#noi-dung">Nội dung học</a> | 
+    <a href="#bieu-mau">Biểu mẫu đăng ký</a>
+  </nav>
+
+  <main>
+    
+    <section id="tong-quan">
+      <h2>1. Tổng quan về Bài 1</h2>
+      <p>Bài học này giúp học viên nắm vững toàn bộ các thẻ xây dựng cấu trúc nền tảng, danh sách, bảng dữ liệu và biểu mẫu tương tác.</p>
+      <img src="https://picsum.photos/300/200" alt="Phác thảo giao diện lập trình web HTML">
+    </section>
+
+    <section id="noi-dung">
+      <h2>2. Chi tiết các nhóm thẻ cốt lõi</h2>
+      <ul>
+        <li>Thẻ bố cục ngữ nghĩa: header, nav, main, section, footer.</li>
+        <li>Thẻ hiển thị dữ liệu: ul, li, table, img.</li>
+        <li>Thẻ tương tác người dùng: form, label, input.</li>
+      </ul>
+
+      <h3>Lịch trình thực hành dự kiến</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nội dung</th>
+            <th>Thời gian hoàn thành</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Phác thảo UI và gõ khung xương HTML</td>
+            <td>45 phút</td>
+          </tr>
+          <tr>
+            <td>Kiểm tra lỗi tài nguyên bằng DevTools</td>
+            <td>15 phút</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="bieu-mau">
+      <h2>3. Khảo sát ý kiến học viên</h2>
+      <form action="#" method="POST">
+        <div>
+          <label for="student-name">Họ và tên học viên:</label>
+          <input type="text" id="student-name" name="ten_hoc_vien" required>
+        </div>
+        <br>
+        <div>
+          <label for="student-note">Ý kiến đóng góp:</label>
+          <input type="text" id="student-note" name="y_kien_gop_y">
+        </div>
+        <br>
+        <button type="submit">Gửi khảo sát</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Thiết kế bởi Nguyễn Võ Rin Đô.</p>
+  </footer>
+
+</body>
+</html>
